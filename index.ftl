@@ -16,7 +16,7 @@
 <body>
     <header class="header">
         <h1>Employee Directory</h1>
-        <button onclick="location.href = 'form.html'">Add Employee</button>
+        <button onclick="location.href = 'form.ftl'">Add Employee</button>
     </header>
 
     <main>

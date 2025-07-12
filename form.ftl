@@ -32,7 +32,7 @@
             </label>
             </div>
             <div class="form-actions">
-                <button type="button" onclick="location.href = 'index.html'" class="btn">Cancel</button>
+                <button type="button" onclick="location.href = 'index.ftl'" class="btn">Cancel</button>
                 <button type="submit">Add</button>
             </div>
         </form>
@@ -59,7 +59,7 @@
                 }
                 employees.push(newEmployee)
                 localStorage.setItem("employees", JSON.stringify(employees))
-                window.location.href = 'index.html'
+                window.location.href = 'index.ftl'
             })
         })
         
