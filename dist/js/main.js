@@ -20,6 +20,7 @@ function renderEmployees() {
                 <button onclick="deleteEmployee(${emp.id})"> Delete </button>
             </div>
         `
+        card.classList.add("form-container")
         container.appendChild(card)
     })
 }

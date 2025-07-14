@@ -12,9 +12,8 @@
     <button onclick="location.href = 'form.html'">Add Employee</button>
   </header>
 
-  <main>
-    <div id="employeeList" class="card-container">
-      <div data-id="1" class="employee-card">
+  <main id="employeeList" class="card-container">
+      <div data-id="1" class="form-container">
         <strong>John Doe</strong>
         <p><strong>Email:</strong> john.doe@example.com</p>
         <p><strong>Department:</strong> HR</p>
@@ -25,7 +24,7 @@
         </div>
       </div>
 
-      <div data-id="2" class="employee-card">
+      <div data-id="2" class="form-container">
         <strong>Jane Smith</strong>
         <p><strong>Email:</strong> jane.smith@example.com</p>
         <p><strong>Department:</strong> IT</p>
@@ -35,7 +34,6 @@
           <button class="btn btn-blue" onclick="deleteEmployee('2')">Delete</button>
         </div>
       </div>
-    </div>
   </main>
 
   <footer class="footer">2025 Employee Directory App. All rights reserved.</footer>
